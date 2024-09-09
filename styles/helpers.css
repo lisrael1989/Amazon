@@ -1,0 +1,19 @@
+.flex {
+  display: flex;
+}
+
+.small-down-icon {
+  font-size: 10px;
+  margin: 0;
+  margin-bottom: 2px;
+}
+
+.big-header-txt {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.bold-text {
+  font-size: 0.9rem;
+  font-weight: 600;
+}

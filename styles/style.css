@@ -1,0 +1,250 @@
+@font-face {
+  font-family: 'Amazon-Ember';
+  src: url('/fonts/Amazon_Typefaces_Complete_Font_Set_Mar2020/Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember/AmazonEmber_Rg.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Amazon Ember', Arial, sans-serif;
+}
+
+header {
+  background-color: var(--header-main-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Amazon Ember', Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: var(--white);
+  height: 60px;
+  padding: 0 20px;
+}
+
+.left-header-section {
+  display: flex;
+  align-items: center;
+}
+
+.left-header-section img {
+  width: 100px;
+}
+
+.delivery-section {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  flex-grow: 1;
+}
+
+.icon-place-section {
+  margin-right: 10px;
+}
+
+.icon-place-section i {
+  color: var(--white);
+  margin-top: 10px;
+}
+
+.small-txt {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  position: relative;
+}
+
+.search-section form {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  position: relative;
+}
+
+.search-section form::after {
+  content: 'All ';
+  position: absolute;
+  color: black;
+  background-color: #e6e6e6;
+  font-family: 'Amazon-Ember';
+  border-right: 1px solid #cdcdcd;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-right-radius: 0x;
+  border-bottom-right-radius: 0x;
+  padding: 13px 25px 12px 15px;
+  font-size: 12px;
+}
+
+.search-section i:first-child {
+  color: #ccc;
+  position: absolute;
+  left: 30px;
+  bottom: 10px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  z-index: 1;
+}
+
+.search-icon {
+  position: absolute;
+  right: 0px;
+  color: var(--primary-color);
+  background-color: #febd69;
+  padding: 12px 15px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0x;
+  border-bottom-right-radius: 3px;
+}
+
+.search-section input {
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  border: none;
+  padding: 0 60px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(17, 17, 17);
+}
+
+.right-header-section {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.right-header-section .site-language {
+  align-items: flex-end;
+}
+
+.right-header-section .en-section {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 5px;
+}
+
+.en-section i {
+  width: 5px;
+  height: 6px;
+}
+
+#us-flag {
+  width: 1.375rem;
+  height: 1rem;
+}
+
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.return-orders-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.en-section p {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.cart-section {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.cart-section::after {
+  content: '0';
+  position: absolute;
+  color: var(--orange);
+  top: -5px;
+  left: 26px;
+  font-size: 1rem;
+  font-weight: 900;
+}
+.cart-section img {
+  height: 25.9943px;
+  height: 38px;
+}
+
+/* subnav */
+
+.small-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(35, 47, 62);
+  color: white;
+  height: 40px;
+  width: 100%;
+  padding: 0 20px 0 10px;
+}
+
+.small-nav-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.small-nav-section a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-right: 10px;
+  font-weight: 500;
+  padding: 8px 12px;
+}
+
+#all-link {
+  padding: 0 12px;
+  text-align: start;
+}
+
+.gaming-store-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+#gaming-link {
+  margin: 0;
+  padding: 0;
+}
+
+.promotion-shipping-section {
+  background-color: #d8f7eb;
+  width: 100%;
+  height: auto;
+}
+
+.promotion-shipping-section p {
+  padding: 8px 20px;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
