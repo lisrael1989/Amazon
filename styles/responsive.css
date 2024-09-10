@@ -1,0 +1,150 @@
+@media screen and (max-width: 680px) {
+  nav {
+    display: flex;
+    flex-direction: column !important;
+    margin-top: 30px;
+  }
+
+  .search-section {
+    width: 400px;
+    padding: 0;
+    margin-top: 10px;
+    border: none;
+    border-radius: 30px;
+  }
+
+  .search-section i:first-child {
+    display: none;
+  }
+
+  .promotion-shipping-section {
+    margin-top: 40px;
+  }
+
+  .search-section form::after {
+    display: none;
+  }
+
+  .search-section form {
+    display: block;
+  }
+
+  .right-header-section {
+    display: none;
+  }
+
+  .cart-section {
+    opacity: 1;
+  }
+
+  .delivery-section {
+    display: none;
+  }
+
+  .small-nav {
+    display: none;
+  }
+
+  .product-images-section {
+    display: none;
+  }
+
+  .left-header-section {
+    width: 100%;
+  }
+
+  .cart-section-mobile {
+    opacity: 1;
+    margin-left: 180px;
+  }
+
+  .cart-section-mobile::after {
+    opacity: 1;
+  }
+
+  .cart-section-mobile img {
+    width: 38px;
+    height: 38px;
+  }
+
+  main {
+    display: grid !important;
+    width: 100%;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+    margin: 10px 10px;
+    grid-template-areas:
+      '1'
+      '';
+  }
+
+  .product-details-section {
+    grid-area: 1;
+    font-size: 12px;
+    grid-column: 1/-1;
+    margin: 5px 10px;
+    width: 350px;
+  }
+
+  .product-details-section .product-title {
+    font-size: 0.875rem;
+    line-height: 20px;
+  }
+
+  .about-item-section {
+    display: none;
+  }
+
+  aside {
+    width: 350px;
+    border: none;
+    margin-left: 0;
+  }
+
+  form {
+    display: none;
+  }
+
+  #in-stock-txt {
+    display: none;
+  }
+
+  aside .price {
+    display: none;
+  }
+
+  aside .shipping-details {
+    display: none;
+  }
+
+  aside .cart-delivery {
+    display: none;
+  }
+
+  aside .deliver-place-new {
+    display: none;
+  }
+
+  aside .small-icon-loc {
+    display: none;
+  }
+
+  .add-gift-section {
+    display: none;
+  }
+  .add-gift-btn {
+    display: none;
+  }
+
+  #other-seller-section {
+    display: none;
+  }
+
+  .rating-number {
+    display: none;
+  }
+
+  .main-img-section {
+    display: none;
+  }
+}

@@ -180,6 +180,24 @@ nav {
   position: relative;
 }
 
+.cart-section-mobile {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  opacity: 0;
+}
+
+.cart-section-mobile::after {
+  content: '0';
+  position: absolute;
+  color: var(--orange);
+  top: -5px;
+  left: 17px;
+  font-size: 1rem;
+  font-weight: 900;
+  opacity: 0;
+}
+
 .cart-section::after {
   content: '0';
   position: absolute;
@@ -189,6 +207,7 @@ nav {
   font-size: 1rem;
   font-weight: 900;
 }
+
 .cart-section img {
   height: 25.9943px;
   height: 38px;
