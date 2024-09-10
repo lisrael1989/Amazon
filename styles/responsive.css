@@ -147,4 +147,8 @@
   .main-img-section {
     display: none;
   }
+
+  .main-img-section-mobile {
+    display: block;
+  }
 }
