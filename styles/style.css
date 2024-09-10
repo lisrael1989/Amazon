@@ -185,6 +185,7 @@ nav {
   align-items: flex-end;
   position: relative;
   opacity: 0;
+  display: none;
 }
 
 .cart-section-mobile::after {
