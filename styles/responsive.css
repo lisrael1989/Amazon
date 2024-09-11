@@ -72,10 +72,7 @@
     width: 100%;
     grid-template-columns: 1fr;
     margin-top: 20px;
-    margin: 10px 10px;
-    grid-template-areas:
-      '1'
-      '';
+    grid-template-areas: '1';
   }
 
   .product-details-section {
